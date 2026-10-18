@@ -1,6 +1,6 @@
 # Plugins and Workflows
 
-A place for sharing academic workflows using AI, developed by Jason G. Karlin. This collection brings together reusable plugins and workflows for academic research and related scholarly work, with room for additional tools and methods as the collection grows.
+A place for sharing academic workflows/plugins/skills. This collection brings together reusable plugins and workflows for academic research and related scholarly work, with room for additional tools and methods as the collection grows.
 
 **[Download Survey Designer 1.0.1](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-v1.0.1/Survey-Designer-1.0.1.zip)** · **[Releases](https://github.com/JGKarlin/plugins-and-workflows/releases)** · **[Report an issue](https://github.com/JGKarlin/plugins-and-workflows/issues)**
 
