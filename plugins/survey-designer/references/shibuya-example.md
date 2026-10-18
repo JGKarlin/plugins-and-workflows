@@ -1,6 +1,6 @@
 # Shibuya worked example, not default project settings
 
-Use the supplied Survey Prompt.md and Google Forms Script Prompt.md, rather than the older version earlier in the conversation. Source: presentation slides 52–58 and the current prompts supplied October 18, 2026.
+This worked example illustrates academic survey design and research design modeling. Use the supplied Survey Prompt.md and Google Forms Script Prompt.md for the example specifications; its project-specific choices are not defaults for other studies.
 
 Research question: How is perceived tourist crowding in central Tokyo related to where greater Tokyo residents go for dining, shopping and leisure?
 

@@ -32,6 +32,6 @@ Each proposed score has id, items (question IDs), direction, method (sum/mean/ot
 
 ## Completion requirements
 
-Mark status complete only when questionnaire wording, options, periods, item relevance, subgroup comparisons, consent facts, requiredness and routing have passed the lecture audit. Keep researcher notes about sampling/inference and actual pilot status. Completion does not mean piloting occurred or the survey was launched. Do not block a clearly requested draft export; label it as draft and preserve placeholders and implementation limits.
+Mark status complete only when questionnaire wording, options, periods, item relevance, subgroup comparisons, consent facts, requiredness and routing have passed the survey-design audit. Keep researcher notes about sampling/inference and actual pilot status. Completion does not mean piloting occurred or the survey was launched. Do not block a clearly requested draft export; label it as draft and preserve placeholders and implementation limits.
 
 Run scripts/validate_survey.py to check structural integrity and inspect warnings. The script does not replace methodological or language review. Generate codebook.csv with scripts/codebook_csv.py; raw platform exports may still need recoding from labels to the stable choice codes.

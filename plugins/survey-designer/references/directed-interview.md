@@ -2,19 +2,19 @@
 
 Ask adaptive questions, not a long intake form. Ask one consequential question per turn; two only for the same immediate decision. Skip already answered questions. Use natural language and a concrete example; maintain decisions across turns.
 
-| Gap | Example directed question | Decision and source |
+| Gap | Example directed question | Design decision |
 |---|---|---|
-| Outcome | “What behavior or view do you want to explain or compare?” | Establish the outcome, slides 33, 43–49, 54–55. |
-| Mode | “Do you have an expectation you want to test, or do you want to explore what people say?” | Hypothesis-led versus exploratory, slides 10–11, 22–23, 31, 42. |
-| Hypothesis | “Which group do you expect to differ, and in which direction?” | Predictor/outcome/comparison, slides 22–30, 44. |
-| Population | “Who exactly should be eligible—where, which ages, and what relevant experience?” | Inclusion/exclusion and relevance, slides 35–37. |
-| Construct | “By ‘avoid,’ do you mean choosing not to go, going less, or never having gone?” | Distinguish constructs, slides 39, 51, 55. |
-| Recall | “What recent period could people reasonably remember?” | Period and measurement, slide 39 and current Survey Prompt. |
-| Rivals | “What else could explain the same pattern?” | Competing explanations and controls, slides 44–49, 51, 55. |
-| Recruitment | “How will you reach people, and which groups need to be compared?” | Actual sampling and conditional counts, slides 36–38, 45, 51, 54. |
-| Language/burden | “What language will respondents use, and how much time can they spend?” | Comprehension and burden, slides 6, 34–35, 39–41. |
-| Consent facts | “Who is conducting the study, who can see answers, and when will they be deleted?” | Actual information/consent; split across turns if needed, slides 47, 53, 57 and Script Prompt. |
-| Output | “Which output format would you like?” | Only after questionnaire completion, slides 56–58 and Jason's workflow requirement. |
+| Outcome | “What behavior or view do you want to explain or compare?” | Establish the outcome. |
+| Mode | “Do you have an expectation you want to test, or do you want to explore what people say?” | Hypothesis-led versus exploratory. |
+| Hypothesis | “Which group do you expect to differ, and in which direction?” | Predictor/outcome/comparison. |
+| Population | “Who exactly should be eligible—where, which ages, and what relevant experience?” | Inclusion/exclusion and relevance. |
+| Construct | “By ‘avoid,’ do you mean choosing not to go, going less, or never having gone?” | Distinguish constructs. |
+| Recall | “What recent period could people reasonably remember?” | Period and measurement. |
+| Rivals | “What else could explain the same pattern?” | Competing explanations and controls. |
+| Recruitment | “How will you reach people, and which groups need to be compared?” | Actual sampling and conditional counts. |
+| Language/burden | “What language will respondents use, and how much time can they spend?” | Comprehension and burden. |
+| Consent facts | “Who is conducting the study, who can see answers, and when will they be deleted?” | Actual information/consent; split across turns if needed. |
+| Output | “Which output format would you like?” | Only after questionnaire completion. |
 
 If the topic alone is given, help narrow it: “What do you want to find out about [topic]—for example, whether [factor] relates to [outcome], or why people [behavior]?” Clearly mark proposed expectations as suggestions, not established decisions.
 

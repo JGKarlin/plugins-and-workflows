@@ -1,6 +1,6 @@
 # Export workflow and platform boundaries
 
-Apply the lecture's fidelity principle (slide 58): the same instrument, identifiers, answer codes and codebook across tools. Generate actual files after format selection, not another prompt. Check current official documentation at export time and test actual import paths when access permits.
+Preserve instrument fidelity: the same instrument, identifiers, answer codes and codebook across tools. Generate actual files after format selection, not another prompt. Check current official documentation at export time and test actual import paths when access permits.
 
 ## Google Forms / Google Apps Script
 

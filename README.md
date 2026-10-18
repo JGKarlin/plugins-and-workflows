@@ -1,12 +1,12 @@
 # Plugins and Workflows
 
-Reusable plugins and workflows by Jason G. Karlin, starting with **Survey Designer** for Codex.
+A place for sharing academic workflows using AI, developed by Jason G. Karlin. This collection brings together reusable plugins and workflows for academic research and related scholarly work, with room for additional tools and methods as the collection grows.
 
-**[Download Survey Designer 1.0.0](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-v1.0.0/Survey-Designer-1.0.0.zip)** · **[Releases](https://github.com/JGKarlin/plugins-and-workflows/releases)** · **[Report an issue](https://github.com/JGKarlin/plugins-and-workflows/issues)**
+**[Download Survey Designer 1.0.1](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-v1.0.1/Survey-Designer-1.0.1.zip)** · **[Releases](https://github.com/JGKarlin/plugins-and-workflows/releases)** · **[Report an issue](https://github.com/JGKarlin/plugins-and-workflows/issues)**
 
 ## Survey Designer
 
-Develop a questionnaire through directed questions grounded in the *Understanding Audiences* lecture. Survey Designer helps define the research question, population, hypotheses or exploratory objectives, sampling, measurement and consent. It drafts and reviews the complete questionnaire before asking which output format you want. If you supply a format early, it remembers that choice and continues the design work first.
+Designed by Jason G. Karlin for survey design in academic research and for research design modeling. Develop a questionnaire through directed questions. Survey Designer helps define the research question, population, hypotheses or exploratory objectives, sampling, measurement and consent. It drafts and reviews the complete questionnaire before asking which output format you want. If you supply a format early, it remembers that choice and continues the design work first.
 
 The plugin includes two skills:
 
@@ -15,7 +15,7 @@ The plugin includes two skills:
 | `design-survey` | Ask focused questions, connect objectives to items, draft the questionnaire and review its wording, answers, routing and methodological limits. |
 | `export-survey` | Review an existing instrument or reuse a completed one, then produce the selected output while preserving wording, identifiers, codes and routing. |
 
-Supported export workflows cover Google Forms scripts, Word, PDF, Qualtrics, XLSForm for KoboToolbox/ODK, LimeSurvey and CSV codebooks. These workflows use the host's available document and platform tools; the plugin bundles structural validation and CSV generation, rather than a standalone converter for every format. It retains eight lecture and workflow references and both supporting Python scripts.
+Supported export workflows cover Google Forms scripts, Word, PDF, Qualtrics, XLSForm for KoboToolbox/ODK, LimeSurvey and CSV codebooks. These workflows use the host's available document and platform tools; the plugin bundles structural validation and CSV generation, rather than a standalone converter for every format. It includes survey-design principles, worked examples, workflow references and both supporting Python scripts.
 
 ## Install in Codex
 
@@ -42,7 +42,7 @@ The plugin should be listed with `installed: true` and `enabled: true`.
 
 ### Install from the ZIP download
 
-1. [Download Survey Designer 1.0.0](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-v1.0.0/Survey-Designer-1.0.0.zip) and extract it.
+1. [Download Survey Designer 1.0.1](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-v1.0.1/Survey-Designer-1.0.1.zip) and extract it.
 2. Keep the entire extracted folder together, including the hidden `.agents` folder. Replace the path below with the actual extracted folder path.
 3. Register that folder and install the plugin:
 

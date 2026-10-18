@@ -1,17 +1,34 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "survey-designer",
-  "version": "1.0.0",
-  "description": "Guide survey design through directed questions using Jason G. Karlin's teaching, then ask for the output format and export the completed instrument.",
-  "author": {"name": "Jason G. Karlin"},
-  "keywords": ["survey", "questionnaire", "research-methods", "teaching"],
-  "extensions": {"com.openai": {"interface": {
-    "displayName": "Survey Designer",
-    "shortDescription": "Guided survey design, review, and export",
-    "longDescription": "Develop a survey through directed questions grounded in the Understanding Audiences lecture, then select an output format after the questionnaire is complete.",
-    "developerName": "Jason G. Karlin",
-    "category": "Productivity",
-    "capabilities": ["Read", "Write"],
-    "defaultPrompt": ["Help me design a survey. Ask directed questions, then ask which output format I want after the questionnaire is complete."]
-  }}}
+  "version": "1.0.1",
+  "description": "Designed by Jason G. Karlin for survey design in academic research and for research design modeling. Develop and review a questionnaire through directed questions, then choose an output format.",
+  "author": {
+    "name": "Jason G. Karlin"
+  },
+  "keywords": [
+    "survey",
+    "questionnaire",
+    "academic-research",
+    "research-design",
+    "research-design-modeling"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Survey Designer",
+        "shortDescription": "Guided survey design, review, and export",
+        "longDescription": "Designed by Jason G. Karlin for survey design in academic research and for research design modeling. Develop and review a questionnaire through directed questions, then choose an output format.",
+        "developerName": "Jason G. Karlin",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Help me design a survey. Ask directed questions, then ask which output format I want after the questionnaire is complete."
+        ]
+      }
+    }
+  }
 }

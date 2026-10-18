@@ -1,6 +1,6 @@
 # Survey Designer behavioral test results
 
-Tested 18 October 2026 against `plugins/survey-designer/skills/` and its required lecture, interview, contract, and export references. These are instruction-following scenario tests by a separate reviewer, not live tests of installed-app activation. No questionnaire or respondent form was created for these tests.
+Tested 18 October 2026 against `plugins/survey-designer/skills/` and its required survey-design principles, interview, contract, and export references. These are instruction-following scenario tests by a separate reviewer, not live tests of installed-app activation. No questionnaire or respondent form was created for these tests.
 
 ## 1. New topic with a volunteered output format — PASS
 
@@ -64,6 +64,6 @@ Cases 1–3 test methodological behavior: construct definitions, double-barreled
 
 ## Final assessment
 
-All five scenario tests pass. The final export skill explicitly requires the lecture completion audit before asking for a format, handles material defects through directed design questions, and reuses a documented audit of the same version. The earlier source-package ambiguity between structural validation and methodological completion is resolved. Explicit user requests for an unrevised draft export remain supported with draft labeling and unresolved defects disclosed.
+All five scenario tests pass. The final export skill explicitly requires the survey-design completion audit before asking for a format, handles material defects through directed design questions, and reuses a documented audit of the same version. The earlier source-package ambiguity between structural validation and methodological completion is resolved. Explicit user requests for an unrevised draft export remain supported with draft labeling and unresolved defects disclosed.
 
 These results establish the reviewed instructions' behavior in the stated scenarios. Installation, skill discovery in a fresh app chat, actual export rendering/import, and live respondent navigation require separate checks; none is claimed here.
