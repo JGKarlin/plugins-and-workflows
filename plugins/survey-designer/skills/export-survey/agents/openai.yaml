@@ -1,0 +1,4 @@
+interface:
+  display_name: "Export a Survey"
+  short_description: "Export a completed survey with consistent codes"
+  default_prompt: "Use $export-survey to turn my completed questionnaire into the output format I choose."

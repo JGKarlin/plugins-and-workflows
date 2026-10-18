@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design a Survey"
+  short_description: "Develop a survey through directed questions"
+  default_prompt: "Use $design-survey to guide me through designing a survey, then ask which output format I want."

@@ -1,0 +1,10 @@
+{
+  "name": "jgkarlin-workflows",
+  "interface": {"displayName": "Jason Karlin's Plugins and Workflows"},
+  "plugins": [{
+    "name": "survey-designer",
+    "source": {"source": "local", "path": "./plugins/survey-designer"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}
