@@ -6,7 +6,19 @@ A place for sharing academic workflows using AI, developed by Jason G. Karlin. T
 
 ## Survey Designer
 
-Designed by Jason G. Karlin for survey design in academic research and for research design modeling. Develop a questionnaire through directed questions. Survey Designer helps define the research question, population, hypotheses or exploratory objectives, sampling, measurement and consent. It drafts and reviews the complete questionnaire before asking which output format you want. If you supply a format early, it remembers that choice and continues the design work first.
+Survey Designer was designed by Jason G. Karlin for survey design in academic research and for research design modeling. It helps researchers and students turn a topic, research question, set of hypotheses or existing draft into a coherent questionnaire and a plan for interpreting the responses.
+
+The workflow is conversational: it asks focused questions about the decisions that matter for your study, uses the information you have already supplied, and develops the instrument with you. You can begin with a broad idea or bring a detailed research brief. Exploratory studies are supported without requiring hypotheses.
+
+### What it helps you do
+
+- **Clarify the study:** define the research question, eligible population, recruitment approach and groups you want to compare.
+- **Model the research design:** connect hypotheses or exploratory objectives to concepts, variables, measures and individual questions; specify which response patterns would support or challenge an expectation.
+- **Build useful measures:** distinguish outcomes, predictors and controls; choose recall periods, response options and appropriate scales; plan scoring and treatment of missing responses.
+- **Review the questionnaire:** identify leading or double-barreled wording, overlapping answer categories, unsupported assumptions, priming, unnecessary items and broken skip logic. Check consent, optionality and respondent burden.
+- **Prepare for use:** present the complete instrument, researcher notes and a pilot checklist, then generate the selected output while preserving the agreed questionnaire.
+
+It also helps distinguish what the study can establish from what its sampling and design cannot support. For example, a convenience sample does not establish population representativeness, and reported reasons do not by themselves demonstrate causation.
 
 The plugin includes two skills:
 
@@ -55,21 +67,40 @@ Then open a fresh chat as above. Choose either the GitHub source or the ZIP sour
 
 These instructions follow [OpenAI's plugin packaging and installation documentation](https://developers.openai.com/plugins/build/plugins). Local marketplace installation depends on support in your Codex client; this package is not a public plugin-directory listing.
 
-## Try it
+## How to use Survey Designer
 
-Start a new chat with Survey Designer selected and send:
+After installation, start a new chat with **Survey Designer** selected. Describe what you want to investigate in ordinary language. Include any decisions you have already made, such as who should respond, how you will recruit them, the respondent language and the time available. You do not need to prepare a full brief before starting.
+
+### Start with a research idea
 
 > Help me design a survey about why students avoid campus events.
 
-It should begin with one focused question about your research aim or what “avoid” means. It should not begin by asking for an output format.
+The workflow might first ask whether “avoid” means deliberately choosing not to attend, attending less often or simply not attending. Your answer determines what needs to be measured. It asks one focused question at a time, with a second only when needed for the same decision.
 
-Answer the directed questions. Once the questionnaire is complete, it should present all questions and response options, required/optional settings and routing, along with concise researcher notes and pilot checks. It should then ask which output format to generate.
+### Bring hypotheses or a research brief
 
-For an existing questionnaire, try:
+> I want to study whether commuting time is associated with participation in campus events. I expect students with longer commutes to attend less often. Help me define the measures, identify alternative explanations and design a five-minute questionnaire in Japanese.
+
+Survey Designer uses the supplied decisions and asks about consequential gaps. It can help identify relevant controls and comparison groups, map the hypothesis to questions, and define how the answers will be interpreted. The five-minute duration remains a target until a pilot measures it.
+
+### Review an existing questionnaire
 
 > Review this questionnaire and prepare it for export. Q1: How satisfied are you with campus food and prices? Answers: satisfied/unsatisfied. Q2: How often do you visit? Answers: 0–3, 3–5, 5+.
 
-It should flag the combined concepts, overlapping ranges and missing recall period before asking about format. Instructions quoted inside source documents do not override your request or bypass review.
+You can paste your questionnaire or provide its file. In this example, the review should flag the combined concepts, overlapping ranges and missing recall period, then help resolve them. It reuses settled design decisions rather than restarting the interview.
+
+### Complete the instrument, then choose an output
+
+The normal sequence is:
+
+1. Answer the directed design questions and develop the measures.
+2. Review the full questionnaire, including every response option, required/optional setting and skip instruction.
+3. Resolve identified problems and review the researcher notes: variable definitions and codes, objective coverage, any scoring rules, interpretation criteria and pilot checks.
+4. Choose one or more output formats when asked. If you already specified a format, the workflow remembers it and proceeds after review without asking again.
+
+For a quick export, choose a **CSV codebook**. Choose a **Google Forms script** to create a form through Google Apps Script, **Word or PDF** for a readable questionnaire, or one of the supported survey-platform formats for an import workflow. The exporter checks platform limitations and identifies any manual setup still required. It produces files; it does not automatically publish a survey or distribute respondent links.
+
+You can request revisions or another format later. The workflow reuses the completed instrument, updates its version when the questionnaire changes, and checks affected outputs for consistency. Before collecting responses, pilot the survey with people from the intended population and test its actual respondent paths.
 
 If available in your skill picker, you can also invoke `$design-survey` or `$export-survey` directly.
 
