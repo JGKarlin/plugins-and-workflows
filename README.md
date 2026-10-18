@@ -4,6 +4,8 @@ A place for sharing academic workflows using AI, developed by Jason G. Karlin. T
 
 **[Download Survey Designer 1.0.1](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-v1.0.1/Survey-Designer-1.0.1.zip)** · **[Releases](https://github.com/JGKarlin/plugins-and-workflows/releases)** · **[Report an issue](https://github.com/JGKarlin/plugins-and-workflows/issues)**
 
+**For students using regular ChatGPT:** [Download the single-file ChatGPT edition](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-chatgpt-v1.0.0/Survey-Designer-ChatGPT.txt). Upload it to a chat and follow the [student instructions](#use-in-a-regular-chatgpt-chat-students). No Codex installation is required.
+
 ## Survey Designer
 
 Survey Designer was designed by Jason G. Karlin for survey design in academic research and for research design modeling. It helps researchers and students turn a topic, research question, set of hypotheses or existing draft into a coherent questionnaire and a plan for interpreting the responses.
@@ -28,6 +30,26 @@ The plugin includes two skills:
 | `export-survey` | Review an existing instrument or reuse a completed one, then produce the selected output while preserving wording, identifiers, codes and routing. |
 
 Supported export workflows cover Google Forms scripts, Word, PDF, Qualtrics, XLSForm for KoboToolbox/ODK, LimeSurvey and CSV codebooks. These workflows use the host's available document and platform tools; the plugin bundles structural validation and CSV generation, rather than a standalone converter for every format. It includes survey-design principles, worked examples, workflow references and both supporting Python scripts.
+
+## Use in a regular ChatGPT chat (students)
+
+The **ChatGPT Student Edition** is a self-contained text guide with the survey-design principles, directed questions, questionnaire review and output guidance. It does not require Codex, a plugin, a custom GPT, an API key or running scripts. The guide is free to download; your ChatGPT account's message, upload and tool limits still apply.
+
+1. [Download Survey-Designer-ChatGPT.txt](https://github.com/JGKarlin/plugins-and-workflows/releases/download/survey-designer-chatgpt-v1.0.0/Survey-Designer-ChatGPT.txt).
+2. Open a new, regular chat in ChatGPT and attach the `.txt` file using the attachment control.
+3. Send the message below, replacing the bracketed text with your topic:
+
+> Use the attached Survey Designer guide to help me design my survey. Follow its directed-question, design, review and export sequence. My research topic is [describe your topic]. Begin with the most important design question.
+
+Continue answering in that chat. ChatGPT should help you develop and review the questionnaire before asking which output format you want. You can also provide hypotheses, a research brief or an existing questionnaire. If you specify an output early, it should remember your choice and continue the design work first.
+
+**If uploads are unavailable:** open the downloaded text file, copy its full contents into the chat, and add the same starting message. Explicitly asking ChatGPT to follow the guide matters; merely attaching it may lead to a summary rather than a guided interview.
+
+**What you receive:** the complete questionnaire, concise researcher notes connecting objectives to items and variables, routing and scoring guidance, sampling limits and a pilot checklist. When the instrument has been reviewed, choose a format. Actual attachments, Word/PDF generation and native survey-platform imports depend on the tools available in your chat. If file creation is unavailable, the guide directs ChatGPT to provide complete copyable content, such as questionnaire text, CSV or Google Apps Script. A generated Forms script must still be run in Google Apps Script and tested.
+
+This edition is an uploaded instruction guide rather than an installed plugin. It preserves the research method but does not install or execute the plugin's Python helpers. For another chat, upload the guide again and include a saved questionnaire and decision summary. Do not assume the next chat remembers the study.
+
+See the [student quick-start guide](students/survey-designer/README.md) and [view the upload file](students/survey-designer/Survey-Designer-ChatGPT.txt). The [Codex version](#install-in-codex) remains available for users who want the installed skills and supporting scripts.
 
 ## Install in Codex
 
@@ -121,6 +143,7 @@ Structural validation does not establish sound wording, valid sampling, scale re
 ```text
 .agents/plugins/marketplace.json   Plugin catalog
 plugins/survey-designer/           Plugin manifest, skills, references and scripts
+students/survey-designer/          Single-file guide for ordinary ChatGPT chats
 tests/                            Repeatable package and script checks
 docs/                             Workflow test results
 ```
